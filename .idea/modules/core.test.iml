@@ -9,6 +9,7 @@
     <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/generated_tests" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -16,6 +17,7 @@
     <orderEntry type="module" module-name="core.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.6.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.18.22" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test:2.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-test:5.3.14" level="project" />

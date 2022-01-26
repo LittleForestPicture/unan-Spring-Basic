@@ -11,9 +11,11 @@
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/generated" isTestSource="false" generated="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.18.22" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.6.2" level="project" />
